@@ -107,6 +107,10 @@ class _MyHomePageState extends State<MyHomePage> {
               radius: 50.0,
               backgroundColor: Color.fromARGB(255, 123, 28, 123),
               child: Text('hola!!!!'),
+            ),
+            CircleAvatar(
+              radius: 15.0,
+              backgroundColor: Colors.amber,
             )
           ],
         ),
